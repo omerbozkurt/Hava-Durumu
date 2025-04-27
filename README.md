@@ -14,4 +14,5 @@ Bu proje, bir hava durumu uygulamasıdır. Kullanıcılar, belirli bir şehir gi
 - **JavaScript**: Uygulamanın işlevselliği ve OpenWeatherMap API'si ile veri çekme.
 - **OpenWeatherMap API**: Hava durumu verilerini sağlamak için kullanılan üçüncü taraf bir API.
 
-- Test: https://omerbozkurt.github.io/Hava-Durumu/
+
+##Test: https://omerbozkurt.github.io/Hava-Durumu/

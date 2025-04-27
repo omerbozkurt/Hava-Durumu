@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- Yükleniyor ikonu -->
+        <div id="loading-icon" style="display: none;">
+            <img src="images/loading.gif" alt="Yükleniyor..." style="width: 70px; height: 70px;">
+            <p style="color: white; margin-top: 10px;">Yükleniyor...</p>
+        </div>
+
+        <!-- Arama kutusu -->
+        <div id="search-container" style="display: flex;">
+            <input type="text" id="city-input" placeholder="Şehir girin...">
+            <button id="search-btn">
+                <box-icon name='search' color="#ffffff" size="lg"></box-icon>
+            </button>
+        </div>
+
+        <!-- Hava durumu bilgisi -->
+        <div id="weather-info" style="display: none;">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="condition"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+
+        <!-- Hata mesajı -->
+        <div id="error-message" style="display: none;">
+            <p style="color: white;">Şehir bulunamadı. Lütfen geçerli bir şehir girin.</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

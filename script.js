@@ -6,7 +6,7 @@ function setBackground() {
     const hours = now.getHours();
 
     if (hours >= 5 && hours < 17) {
-        document.body.style.backgroundImage = "url('images/sabah.jpg')";
+        document.body.style.backgroundImage = "url('images/gunduz.jpg')";
     } else {
         document.body.style.backgroundImage = "url('images/aksam.jpg')";
     }

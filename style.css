@@ -62,13 +62,16 @@ body {
     cursor: pointer;
     transition: 0.3s ease;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Butona hafif gölge ekliyoruz */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Butona hafif gölge ekliyoruz */
 }
 
 /* Arama Butonunun Hover Efekti */
 #search-btn:hover {
-    transform: scale(1.1); /* Butonu büyütme efekti */
-    box-shadow: 0 0 15px rgba(238, 255, 0, 0.6); /* Hover durumunda ışıklı bir efekt */
+    transform: scale(1.1);
+    /* Butonu büyütme efekti */
+    box-shadow: 0 0 15px rgba(238, 255, 0, 0.6);
+    /* Hover durumunda ışıklı bir efekt */
 }
 
 #search-btn i {
@@ -95,11 +98,18 @@ body {
     margin-bottom: 10px;
 }
 
-#condition, #humidity, #wind {
+#condition,
+#humidity {
     font-size: 18px;
     margin: 5px 0;
     text-transform: capitalize;
 }
+
+#wind {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
 
 /* Hata Mesajı */
 #error-message {
